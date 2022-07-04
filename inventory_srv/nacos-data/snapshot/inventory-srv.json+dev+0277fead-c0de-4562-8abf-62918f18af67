@@ -1,0 +1,20 @@
+{
+    "name":"inventorys_srv",
+    "tags":["python","inventorys-srv","zhaoshop"],
+    "mysql":{
+        "db":"zhaoshop_inventorys_srv",
+        "host":"192.168.1.31",
+        "port":3306,
+        "user":"root",
+        "password":"root"
+    },
+    "consul":{
+        "host":"192.168.1.31",
+        "port":8500
+    },
+    "redis":{
+        "host":"192.168.1.31",
+        "port":6379,
+        "db":0
+    }
+}
